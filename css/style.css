@@ -1,0 +1,46 @@
+body {
+  background-color: #eee;
+}
+main>section {
+  height: calc(100vh - 2.25rem);
+  overflow: auto;
+}
+main>section:not(:first-child) {
+  display: none;
+}
+
+.aui-bar-tab .aui-active {
+  color: #009688;
+}
+
+
+
+/* activityInner 页面格式设置 
+author：萝卜*/
+
+
+#activityInner .bcg{
+  background-color: #fff;
+}
+
+#activityInner .aui-info-item >img{
+  margin-right: 0.25rem;
+}
+#activityInner{
+  overflow: auto;
+}
+.btn{
+  background-color: #03a9f4;
+  color: #fff;
+  margin: 0.7rem auto;
+  padding: 0 0.2rem;
+  width: 300px;
+}
+#activityInner .scroll{
+  overflow: scroll;
+  width: 250px;
+}
+
+
+
+
